@@ -1,0 +1,223 @@
+  .top{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+.left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 50px;
+}
+.right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.Shopsy{
+    font-size: 45px; 
+    font-weight: bolder;
+    width: 120px;
+    font-family: Inter, Inter-fallback;
+    color: rgb(81, 0, 255);
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+.input{
+    width: 600px;
+    margin-left: 30px;
+}
+.input input{
+    font-size: 17px;
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(133, 190, 210, 0.105);
+    padding-left: 10px;
+}
+.right{
+    margin-left: 30px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.logo img{
+    height: 35px;
+}
+.drop{
+    height: 35px;
+    border-radius: 5px;
+    font-size:17px;
+    border: none;
+   margin-top: -10px;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size:17px;
+}
+.cart p{
+    color:black;
+}
+.cart img{
+    height: 35px;
+}
+.gift{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size:17px;
+}
+.gift p{
+    color: black;
+}
+.gift img{
+    height: 35px;
+}
+.dot-menu {
+  font-size: 24px;
+  cursor: pointer;
+  padding: 5px 10px; 
+  margin-top: 5px;
+}
+.dot-link {
+  display: none;     
+  text-decoration: none;
+  color: black;
+  margin-top: 5px;
+}
+.hoverBox:hover .dot-link {
+  display: block;
+}
+.dot-link1 {
+  display: none;        
+  text-decoration: none;
+  color: black;
+  margin-top: 5px;
+}
+.hoverBox:hover .dot-link1 {
+  display: block;
+}
+.link-box {
+  border: 2px solid #ccc;  
+   border-radius: 8px;
+   width: 100%;
+}
+#Page
+{
+ background-color: rgb(241, 243, 246);
+}
+.container{
+    width:90%;
+    margin: 0px auto;
+      display: flex;
+}
+.Allcircle{
+    display: flex;
+    background-color:white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 24.5px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.item img {
+     width: 70px; 
+    height: 70px;
+     border-radius: 50%; 
+}
+.dropdown .main {
+    margin-top: 5px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+.main:hover{
+    color:rgb(81, 0, 255);
+  opacity: 0.7;
+}
+.dropdown .menu {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.dropdown:hover .menu {
+    opacity:1;
+    max-height: 380px;
+    background-color: rgb(241, 243, 246);
+}
+.menu a {
+    margin: 5px 0;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+.rounded {
+    width:90%;
+    margin: 0px auto;
+    background-color: white;
+}
+.rounded img{
+    width: 100%;
+    margin: 0px;
+}
+.wrapper{
+    width:90%;
+   display: grid;
+   grid-template-columns: auto auto auto;
+   margin-left: 10px;
+}
+.wrapperimg{
+height: 230px;
+width: 430px;
+margin-left: 10px;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+.smallimage{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-bottom: 20px;
+}
+.bottom
+{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+footer{
+    background-color: black;
+}
+p{
+    color: grey;
+}
+.main1{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+.A{
+   display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.b{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+  }
